@@ -1,3 +1,16 @@
+# 快速开始 (由 @ljchen98 添加)
+
+>> 假设域名为`example.com`。
+
+将域名 `example.com` 解析到服务器 IP，然后在服务器中执行：
+
+```bash
+https://raw.githubusercontent.com/ljchen98/jsproxy/master/i.sh | bash -s example.com
+```
+
+然后访问: `https://example.com:8443` 即可。
+
+---
 
 # 更新
 
