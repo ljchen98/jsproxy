@@ -10,6 +10,14 @@
 curl https://raw.githubusercontent.com/ljchen98/jsproxy/master/i.sh | bash -s example.com
 ```
 
+> 可能会出现 acme 的错误。这种情况下，切换到 jsproxy 用户，然后运行：
+> 
+> ```bash
+> su - jsproxy
+> curl https://get.acme.sh | sh -s email=email@outlook.com
+> ```
+
+
 然后访问: `https://example.com:8443` 即可。
 
 ---
